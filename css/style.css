@@ -1,0 +1,255 @@
+/* this style here is for the desktop version*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+}
+header {
+    background-color: red;
+}
+.subscribe {
+    font-size: 15px;
+    font-family: 'Gideon Roman', cursive;
+    color: white;
+    text-align: right;
+    padding: 0px;
+    margin-right: 20px auto;
+}
+  
+.content {
+
+    width: 80vw;
+    height: 100%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 4%;
+    margin: 40px 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid whitesmoke;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+   font-family: 'Gideon Roman', cursive;
+}
+h2 {
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: slategrey;
+    font-weight: bolder;
+}
+h5 {
+    font-size: 12px;
+    color: rgba(150, 147, 147, 0.986);
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hr1{
+    width: 1012px;
+
+}
+button {
+    color: white;
+    background-color: #557fd4;
+    border: 1px solid #557fd4;
+    padding: 1px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 2px solid #557fd4;
+}
+.link{
+    margin-left: 100px;
+}
+.read-me{
+    background-color: white;
+    color: black;
+    margin-left: 70px;
+    border: 1px solid black;
+}
+i {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.times {
+    float: right;
+
+}
+
+.times2 {
+    font-size: 15px;
+    width: 280px;
+    padding-top: 3%;
+    padding-left: 20%;
+}
+
+.times2 span,
+i {
+    margin: 7px;
+    font-weight: bolder;
+    font-family: 'calibri';
+}
+
+hr {
+    width: 200px;
+}
+
+.news1 {
+    column-count: 2;
+    column-gap: 20px;
+}
+.news {
+    column-count: 2;
+    column-gap: 20px;
+}
+p {
+    margin: 15px;
+}
+.h4 {
+    text-align: left;
+    margin-left: 5px;
+    color: rgb(133, 133, 245);
+    font-family: Arial Narrow;
+    font-weight: bold;
+    padding: 10px;
+}
+h3 {
+    font: 16px;
+    font-family: 'calibri';
+    margin-left: 20px;
+}
+
+
+
+.img2 {
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12%;
+    margin-top: 30px;
+}
+
+.image3 {
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+}
+.flex2 p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex2 .image3:hover{
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.flex2 p:hover {
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+footer.anchor {
+
+    background-color: red;
+    padding-top: 15px;
+    padding-bottom: 0px;
+   
+}
+
+.anchor a {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 6px;
+    column-count: 7;
+    column-gap: 50px;
+    margin-left: 37px;
+    color: white;
+    align-items: center;
+    font-family: 'calibri';
+
+}
+
+.anchor a:hover {
+    color: saddlebrown;
+    border: 2px solid salmon;
+    text-shadow: sandybrown 2px 2px;
+}
+footer p{
+    font-family:Tahoma;
+    font-size: 13px;
+    color:rgb(231, 228, 228);
+    font-weight: lighter;
+
+}
+/* this style below is for mobile devices with the screen sizes*/
+@media only screen and (max-width:800px ) and (min-width:500px) {
+    .content{
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+    .link{
+        margin-left: 2px;
+    }
+    .read-me{
+        background-color: white;
+        color: black;
+        margin-left: 70px;
+        border: 1px solid black;
+    }
+    
+    
+  }
+  @media only screen and (max-width:499px) {
+    content{
+      width: 70%;
+    }
+    .right {
+        width: 100%;
+      }
+      button {
+          border: 2px solid red;
+        color: white;
+        background-color: #557fd4;
+        border: 1px solid #557fd4;
+        padding: 1px;
+        font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+        
+        border-radius: 4px;
+    }
+    .link{
+        margin-left: 10px;
+    }
+    
+  }
